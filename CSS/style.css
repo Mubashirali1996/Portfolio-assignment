@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #303030;;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+    
+}
+
+.items{
+    display: flex 
+    
+    
+}
+.items li{
+    list-style-type: none;
+    padding:30px;
+}
+.items li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    height: 60vh;
+    background-color: antiquewhite;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 30px 0px;
+    padding: 50px;
+  
+}
+
+.profile img{
+    height: 60vh;   
+
+}
+
+.hello{
+    font-size: 45px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-size: 70px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}       
+.intro{
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.icons{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;    
+    border-radius: 50%;
+    display: flex;
+    
+}
+.icons a{
+    text-decoration: none;
+    padding: 20px;
+    color: blue ;
+}
+
+.service{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+}
+
+.Social a img{
+    width: 300px;
+    height: 65px;
+}
+
+.Social{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: -60px  100px;
+    padding: 24px;
+    background-color: rgb(65, 65, 65);
+}
+
+.workbox{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+}
+
+.forclient{
+    font-size: xx-large;
+    margin-right: 400px;
+    padding-right: 200px;
+
+}
+
+.do{
+    font-size: 65px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+}
+
+
+
