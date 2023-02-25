@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+
 
 * {
     margin: 0%;
@@ -25,8 +29,8 @@ body {
 }
 
 .logo{
-    font-size: xx-large;
-    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
 }
 
 .items {
@@ -35,19 +39,20 @@ body {
 
 .items li {
     list-style-type: none;
-    padding: 30px;
+    padding: 10px;
 }
 
 .items li a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: 300;
-    font-size: larger;
+    font-size: small;
 }
 
 .items li a:hover{
-    color: black;
+    color: rgb(66, 64, 64);
+    transition: 0.2s ease;
 }
 
 .container {
@@ -75,7 +80,7 @@ body {
 }
 
 .name {
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     text-decoration: underline;
@@ -85,13 +90,13 @@ body {
 }
 
 .intro {
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Fira Sans', sans-serif;
     margin-top: 35px;
 }
 
 .icons {
-    padding: 20px;
+    padding: 0px 0px 0px 10px;
     font-size: 30px;
     width: 30px;
     border-radius: 50%;
@@ -107,7 +112,7 @@ body {
 
 .service {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .service button {
@@ -118,8 +123,9 @@ body {
 }
 
 .Social a img {
-    width: 300px;
+    width: 200px;
     height: 65px;
+    opacity: 0.75;
 
 }
 
@@ -141,13 +147,13 @@ body {
 
 .forclient {
     font-size: xx-large;
-    margin-right: 400px;
-    padding-right: 200px;
+    width: 50vw;
+    margin: 0px 100px 0px -100px;
 
 }
 
 .do {
-    font-size: 65px;
+    font-size: 35px;
     font-family: 'Fira Sans', sans-serif;
     color: white;
 }
@@ -189,7 +195,7 @@ td {
 .img {
     display: flex;
     align-items: center;
-    margin: 100px 100px 50px 0px;
+    margin: 0px 20px 50px 0px;
    
 }
 
