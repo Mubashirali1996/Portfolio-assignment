@@ -174,7 +174,7 @@ body {
 
 th,
 td {
-    padding: 12px;
+    padding: 10px;
     text-align: left;
 
 }
@@ -234,7 +234,7 @@ td {
     margin-right:   00px;
     color: white;
     font-family: 'Fira Sans', sans-serif;
-    font-size: larger;
+    font-size: 12px;
 
 }
 
