@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Itim&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
-*{
+
+* {
     margin: 0%;
     padding: 0%;
 }
 
-body{
-    background-color: #303030;;
+body {
+   background: linear-gradient(rgb(78, 77, 77) , rgb(34, 34, 33));
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,111 +20,222 @@ body{
     margin: 30px;
     font-family: 'Poppins', sans-serif;
     color: white;
-    
-    
+
+
 }
 
-.items{
-    display: flex 
-    
-    
+.logo{
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
 }
-.items li{
+
+.items {
+    display: flex
+}
+
+.items li {
     list-style-type: none;
-    padding:30px;
+    padding: 30px;
 }
+
 .items li a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-weight: 300;
-    font-size: medium;
+    font-size: larger;
 }
 
-.container{
+.items li a:hover{
+    color: black;
+}
+
+.container {
     display: flex;
     width: 100vw;
     height: 60vh;
-    background-color: antiquewhite;
+    background-color:rgb(78, 77, 77);
     align-items: center;
     font-family: 'Fira Sans', sans-serif;
     margin: 30px 0px;
     padding: 50px;
-  
-}
-
-.profile img{
-    height: 60vh;   
+    color: white;
 
 }
 
-.hello{
+.profile img {
+    height: 60vh;
+
+}
+
+.hello {
     font-size: 45px;
     font-family: 'Fira Sans', sans-serif;
+   
 }
-.name{
+
+.name {
     font-size: 70px;
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
-}       
-.intro{
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    text-decoration-color:  rgb(204, 204, 29);
+
+}
+
+.intro {
     font-size: 15px;
     font-family: 'Fira Sans', sans-serif;
-
+    margin-top: 35px;
 }
 
-.icons{
+.icons {
     padding: 20px;
     font-size: 30px;
-    width: 30px;    
+    width: 30px;
     border-radius: 50%;
     display: flex;
-    
-}
-.icons a{
-    text-decoration: none;
-    padding: 20px;
-    color: blue ;
+
 }
 
-.service{
+.icons a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(204, 204, 29);
+}
+
+.service {
     font-family: 'Fira Sans', sans-serif;
     font-size: 20px;
 }
 
-.Social a img{
-    width: 300px;
-    height: 65px;
+.service button {
+    color: rgb(204, 204, 29);
+    background-color: rgb(65, 65, 65);
+    border: none;
+    
 }
 
-.Social{
+.Social a img {
+    width: 300px;
+    height: 65px;
+
+}
+
+.Social {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: space-between;
-    margin: -60px  100px;
+    margin: -80px 100px;
     padding: 24px;
     background-color: rgb(65, 65, 65);
 }
 
-.workbox{
+.workbox {
     display: flex;
     justify-content: space-between;
     margin: 200px;
 }
 
-.forclient{
+.forclient {
     font-size: xx-large;
     margin-right: 400px;
     padding-right: 200px;
 
 }
 
-.do{
+.do {
     font-size: 65px;
     font-family: 'Fira Sans', sans-serif;
     color: white;
 }
 
+.moreintro {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+    padding: 30px 0px;
+    opacity: 0.75;
+}
 
+.workwith {
+
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+
+}
+
+#Projectcount{
+    color: rgb(204, 204, 29);
+    font-weight: bold;
+}
+
+#Projectname{
+    font-size: small;
+    opacity: 0.75;
+    
+}
+
+
+
+.img {
+    display: flex;
+    align-items: center;
+    margin: 100px 100px 50px 0px;
+   
+}
+
+.img img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.img1 {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 50px 0px;
+  
+   
+}
+
+.img1 img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.img2 {
+    display: flex;
+    align-items: center;
+    margin: 0px 100px 50px 0px;
+  
+}
+
+.img2 img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.text{
+    margin-left: 30px ;
+    margin-right:   00px;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: larger;
+
+}
+
+.text p {
+    font-size: small;
+    margin-top:  10px;   
+    opacity: 0.5;
+  
+}
 
